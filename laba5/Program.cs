@@ -39,7 +39,7 @@ public class Dog : Animal
 
 public class Cat : Animal
 {
-    public int livesLeft;
+    public string gender;
 
     public override void MakeNoise()
     {
@@ -87,7 +87,7 @@ class Program
         Cat cat = new Cat();
         cat.food = "Рыба";
         cat.location = "квартира";
-        cat.livesLeft = 9;
+        cat.gender = "кошка";
 
         Horse horse = new Horse();
         horse.food = "Сено";
